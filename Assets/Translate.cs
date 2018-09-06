@@ -17,7 +17,6 @@ public class Translate : MonoBehaviour {
         if (Input.GetKey(KeyCode.Space))
             transform.Translate(Vector3.up * moveSpeed * Time.deltaTime);
 
-        if (Input.ResetInputAxes)
-            gameObject.transform.Translate(Vector3(-3, 0, 60));
+
     }
 }
