@@ -10,13 +10,9 @@ public class Rotate_2 : MonoBehaviour {
 
     void Update()
     {
-
-
-      
             transform.Rotate(Vector3.up, -turnSpeed * Time.deltaTime);
 
-        if (Input.GetKey(KeyCode.RightArrow))
-            transform.Rotate(Vector3.up, turnSpeed * Time.deltaTime);
+ 
     }
 }
 

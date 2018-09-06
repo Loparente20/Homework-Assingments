@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class Scaling : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+    
+        // Widen the object by 0.1
+        transform.localScale += new Vector3(0.1F, .1f, 0)
+
+    }
 }
